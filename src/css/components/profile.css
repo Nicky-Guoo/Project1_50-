@@ -1,0 +1,15 @@
+.profile-photo {
+  border: 4px solid green;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* 伸展图片 */
+  object-fit: cover;
+}

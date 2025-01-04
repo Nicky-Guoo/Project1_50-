@@ -1,0 +1,68 @@
+{
+    "profile": {
+      "name": "Elden Lord",
+      "at": "@EldenRing",
+      "img_src": "./assets/images/profile/profile_3.jpg"
+    },
+    "highline": {
+      "description": [
+        "Your Stories",
+        "Your View",
+        "Your Emotion",
+        "Your Opinion",
+        "Your Feeling",
+        "Your Love"
+      ]
+    },
+    "posts": [
+      {
+        "id": 1,
+        "profile": {
+          "src": "./assets/images/profile/profile_2.jpg",
+          "name": "Lana Rose",
+          "position": "Somewhere",
+          "time": "15 MINUTES AGO"
+        },
+        "picture": {
+          "img_src": "./assets/images/post/post_5.jpeg"
+        }
+      },
+      {
+        "id": 2,
+        "profile": {
+          "src": "./assets/images/profile/profile_3.jpg",
+          "name": "Lana Rose",
+          "position": "Somewhere",
+          "time": "15 MINUTES AGO"
+        },
+        "picture": {
+          "img_src": "./assets/images/post/post_6.jpeg"
+        }
+      },
+      {
+        "id": 3,
+        "profile": {
+          "src": "./assets/images/profile/profile_4.jpg",
+          "name": "Lana Rose",
+          "position": "Somewhere",
+          "time": "15 MINUTES AGO"
+        },
+        "picture": {
+          "img_src": "./assets/images/post/post_7.jpeg"
+        }
+      },
+      {
+        "id": 4,
+        "profile": {
+          "src": "./assets/images/profile/profile_5.jpg",
+          "name": "Lana Rose",
+          "position": "Somewhere",
+          "time": "15 MINUTES AGO"
+        },
+        "picture": {
+          "img_src": "./assets/images/post/post_8.jpeg"
+        }
+      }
+    ]
+}
+  

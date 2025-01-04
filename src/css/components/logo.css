@@ -1,0 +1,7 @@
+.logo {
+  text-transform: uppercase;
+  font-family: 'Comfortaa';
+  font-size: 1.2rem;
+  /* logo 不可选 */
+  user-select: none;
+}
