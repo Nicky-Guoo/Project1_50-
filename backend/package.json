@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": ""
+    "start": "",
+    "json:server":"json-server --port 8000 --watch db.json",
+    "server":"nodemon server.js"
   },
   "author": "",
   "license": "ISC",
