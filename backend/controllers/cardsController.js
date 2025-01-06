@@ -1,9 +1,25 @@
 const axios = require('axios');
 
-const getCard = async function (req, res) {
-  const id = req.query.id;
-  console.log('id', id);
-  const url = 'http://localhost:8000/cards?id=' + id;
+//ally 老师代码（获取single card by id）
+// const getCard = async function (req, res) {
+//   const id = req.query.id;
+//   console.log('id', id);
+//   const url = 'http://localhost:8000/cards?id=' + id;
+//   try {
+//     const cards = await axios.get(url);
+//     console.log('cards', cards.data);
+//     res.status(200).json({
+//       msg: 'get cards succeed',
+//       data: cards.data,
+//     });
+//   } catch (error) {
+//     res.status(500).send('Server Error');
+//   }
+// };
+
+//大饼代码，获取所有cards
+const getCards = async function (req, res) {
+  const url = 'http://localhost:8000/cards';
   try {
     const cards = await axios.get(url);
     console.log('cards', cards.data);
@@ -15,7 +31,6 @@ const getCard = async function (req, res) {
     res.status(500).send('Server Error');
   }
 };
-
 const postCard = async function (req, res) {
   console.log('body', req.body);
   const data = req.body;
@@ -47,4 +62,5 @@ const deleteCard = async function (req, res) {
     res.send(500).send('Server Error');
   }
 };
-module.exports = { getCard, postCard, deleteCard };
+module.exports = { getCards, postCard, deleteCard };
+// module.exports = { getCard, postCard, deleteCard }; ally老师代码

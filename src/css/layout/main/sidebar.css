@@ -1,0 +1,45 @@
+:root {
+  --left-profile-background-color: #fff;
+  --left-profile-padding: 1rem;
+  --left-profile-radius: 1rem;
+}
+
+.sidebar {
+  /* border: 5px solid green; */
+
+  height: 100vh;
+}
+
+.sidebar .profile {
+  /* border: 3px solid; */
+  padding: var(--left-profile-padding);
+  border-radius: var(--left-profile-radius);
+  background-color: var(--left-profile-background-color);
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+/* .sidebar .profile .profile-description {
+  border: 3px solid black;
+} */
+
+.sidebar .profile .profile-description h2 {
+  font-size: 0.9rem;
+}
+
+.sidebar .profile .profile-description p {
+  font-size: 0.7rem;
+}
+
+.sidebar menu {
+  background-color: var(--left-profile-background-color);
+  border-radius: var(--left-profile-radius);
+  padding: 0;
+  /* border: 3px solid red; */
+}
+
+.sidebar button {
+  width: 100%;
+  padding: 1rem 0;
+}

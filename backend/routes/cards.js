@@ -1,13 +1,14 @@
 const express = require('express');
 const axios = require('axios');
-const { getCard } = require('../controllers/cardsController');
+// const { getCard } = require('../controllers/cardsController');ally 老师代码
+const { getCards } = require('../controllers/cardsController'); // 大饼代码
 const { postCard } = require('../controllers/cardsController');
 const { deleteCard } = require('../controllers/cardsController');
 const cardsRouter = express.Router();
 // get cards by user id
 //api http://localhost/api/cards?id=1     自己写的api
 //json http://localhost:8000/cards?id=1   json提供的api
-cardsRouter.get('/', getCard);
+cardsRouter.get('/', getCards);
 
 // post cards to the user
 // api http://localhost/api/cards

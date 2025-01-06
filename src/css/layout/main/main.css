@@ -1,0 +1,15 @@
+main {
+  /* border: 10px solid red; */
+  /* height: 500px; */
+  /* 将main区域从顶部挪下来 */
+  position: relative;
+  top: 5.4rem;
+
+  /* 用格子分配区域 */
+  display: grid;
+  grid-template-columns: 30vw auto;
+  /* 中间留白 */
+  column-gap: 2rem;
+
+  padding: 0 4rem;
+}
